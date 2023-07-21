@@ -20,15 +20,14 @@ ul{
     li{
         font-size: 0.8rem;
         margin: 0 0.5rem;
+        padding: 40px 0;
         border-bottom:5px solid white ;
         a{
             text-decoration: none;
             font-weight: 700;
             text-transform: uppercase;
             color:rgb(70, 70, 70);
-            &:hover{
-            color: rgb(30, 86, 206);    
-        }
+            cursor: pointer;
         }
         &:hover{
             border-bottom: 5px solid rgb(30, 86, 206);
