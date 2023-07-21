@@ -2,7 +2,16 @@
 <header>
     <div class="pre_header">
         <div class="container d-flex justify-content-end">
-            dede
+           <div class="mx-5">
+           <a class=" text-decoration-none text-white" href="#" >
+                   DC POWER&#8480 VISA&reg
+                </a>
+           </div>
+           <div>
+                <a class="dropdown-toggle text-decoration-none text-white" href="#" role="button" data-bs-toggle="dropdown" >
+                    ADDITIONAL DC SITE
+                </a>
+           </div>
         </div>
     </div>
     <div class="container">
@@ -27,7 +36,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
 
-                <div class="search_header border-bottom border border-0 border-primary ">
+                <div class="search_header border-bottom border-3 border border-0 border-primary ">
                     <div class="d-flex ">
                     <input type="text"  class="border-0 text-end" placeholder="Search">
                     <i class="fa-solid fa-magnifying-glass mx-1"></i>
