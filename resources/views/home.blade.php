@@ -17,9 +17,12 @@
 
 <body>
     @include('partials.header')
-    <main class="bg-light">
-   
-    </main>
+        <main class="bg-light">
+        <div class="cover_img">
+                <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+            </div>
+    
+        </main>
 
 </body>
 

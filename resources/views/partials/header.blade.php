@@ -13,7 +13,7 @@
             <div class="col d-flex justify-content-end align-items-center">
                 <ul class=" menu_header list-group list-group-horizontal px-2">
                     <li><a :href="/">Characters</a></li>
-                    <li><a :href="/">Comics</a></li>
+                    <li><a :href="{{ route('homepage')}}">Comics</a></li>
                     <li><a :href="/">Movies</a></li>
                     <li><a :href="/">Tv</a></li>
                     <li><a :href="/">Games</a></li>
