@@ -17,10 +17,28 @@
 
 <body>
     @include('partials.header')
-        <main class="bg-light">
+        <main>
         <div class="cover_img">
                 <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+        </div>
+        <div class="bg_comics">
+            <div class="container position-relative ">
+                    <div class="curent_series">CURENT SERIES</div>
+                    <div class="row py-5">
+                        @foreach($fumetti as $fumetto)
+                            <div class="card_fumetto col-12 col-md-6 col-lg-2 text-white">
+                                <img src="{{ $fumetto['thumb']}}" alt="">
+                                <div class="title_card mb-1">
+                                {{$fumetto['series']}}
+                                </div>
+                            </div>
+                        @endforeach   
+                    </div> 
             </div>
+            <div class="button_main_first text-center">
+                        <button>LOAD MORE</button>
+            </div> 
+        </div>
     
         </main>
 

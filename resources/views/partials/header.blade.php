@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-between my-2 align-items-center">
+        <div class="row justify-content-between  align-items-center">
             <div class="col">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}">
             </div>
