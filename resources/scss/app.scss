@@ -15,8 +15,9 @@
 img{
     width: 4rem;
 }
+header{
 ul{
-    list-style: none;
+   
     li{
         font-size: 0.8rem;
         margin: 0 0.5rem;
@@ -34,6 +35,7 @@ ul{
            
         }
     }
+}
 }
 .hamburgher_menu{
         display: none;
@@ -127,4 +129,26 @@ ul{
 
 .main_second{
     background-color: rgb(30, 86, 206);
+}
+//FINE MAIN
+//INIZIO FOOTER
+.footer_up{
+    width: 100%;
+    background-image: url('../img/footer-bg.jpg'); 
+
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        color: rgb(170, 168, 168);
+        &:hover{
+            filter: invert(50%);
+            cursor: pointer;
+    }
+}
+}
+.logo_footer{
+    width: 100%;
+    background-image: url('../img/dc-logo-bg.png');
+    background-size: cover;
+    background-position-y: center;
 }
