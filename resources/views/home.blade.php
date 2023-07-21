@@ -29,7 +29,7 @@
                     <div class="row py-5">
                         <!-- Card fumetti -->
                         @foreach($fumetti as $fumetto)
-                            <div class="card_fumetto col-12 col-md-6 col-lg-2 text-white">
+                            <div class="card_fumetto col-12 col-md-6 col-lg-2 text-white my-3">
                                 <img src="{{ $fumetto['thumb']}}" alt="">
                                 <div class="title_card mb-1">
                                 {{$fumetto['series']}}
