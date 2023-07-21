@@ -16,7 +16,7 @@
     </div>
     <div class="container">
         <div class="row justify-content-between  align-items-center">
-            <div class="col">
+            <div class="col py-2">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}">
             </div>
             <div class="col d-flex justify-content-end align-items-center">
@@ -32,11 +32,26 @@
                     <li><a :href="/">News</a></li>
                     <li><a :href="/">Shop</a></li>
                 </ul>
-                <div class="hamburgher_menu px-4">
-                    <i class="fa-solid fa-bars"></i>
+                <!-- Hamburger menu -->
+                <div class="btn-group">
+                <button type="button" class="btn hamburgher_menu border-0" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                <li><a :href="/">Characters</a></li>
+                    <li><a :href="{{ route('homepage')}}">Comics</a></li>
+                    <li><a :href="/">Movies</a></li>
+                    <li><a :href="/">Tv</a></li>
+                    <li><a :href="/">Games</a></li>
+                    <li><a :href="/">Collectibles</a></li>
+                    <li><a :href="/">Videos</a></li>
+                    <li><a :href="/">Fans</a></li>
+                    <li><a :href="/">News</a></li>
+                    <li><a :href="/">Shop</a></li>
+                </ul>
                 </div>
 
-                <div class="search_header border-bottom border-3 border border-0 border-primary ">
+                <div class="search_header border-bottom border-3 border border-0 border-primary">
                     <div class="d-flex ">
                     <input type="text"  class="border-0 text-end" placeholder="Search">
                     <i class="fa-solid fa-magnifying-glass mx-1"></i>
