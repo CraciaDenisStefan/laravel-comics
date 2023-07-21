@@ -1,1 +1,60 @@
 @import '~bootstrap/scss/bootstrap';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// HEADER
+.pre_header{
+    background-color: rgb(30, 86, 206);
+    width: 100%;
+}
+img{
+    width: 4rem;
+}
+ul{
+    list-style: none;
+    li{
+        font-size: 0.8rem;
+        margin: 0 0.5rem;
+        border-bottom:5px solid white ;
+        a{
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            color:rgb(70, 70, 70);
+            &:hover{
+            color: rgb(30, 86, 206);    
+        }
+        }
+        &:hover{
+            border-bottom: 5px solid rgb(30, 86, 206);
+           
+        }
+    }
+}
+.hamburgher_menu{
+        display: none;
+        .fa-solid{
+            color: rgb(70, 70, 70);
+            font-size: 2rem;
+            padding: 30px 0;
+            cursor: pointer;
+            &:hover{
+                color: rgb(30, 86, 206);
+            }
+        }
+        
+    }
+@media screen and (max-width: 1068px){
+    .menu_header{
+        display: none;
+    }
+    .hamburgher_menu{
+        display: block;
+    }
+}
+// FINE HEADER

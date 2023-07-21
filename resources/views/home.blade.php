@@ -18,7 +18,7 @@
 <body>
     @include('partials.header')
     <main class="bg-light">
-
+   
     </main>
 
 </body>
