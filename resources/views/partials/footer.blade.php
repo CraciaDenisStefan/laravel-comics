@@ -58,4 +58,25 @@
             </div>
         </div>
 
+        <div class="footer_down py-4">
+            <div class="container d-flex justify-content-between social_footer_down">
+                <!-- Bottone per il sing up -->
+                <div class="button_footer">
+                    <button type="button" class="btn  btn-outline-primary rounded-0 text-white">SIGN-UP NOW!</button>
+                </div>
+                <div class="social_footer">
+                    <!-- Lista social media footer -->
+                    <ul class="d-flex list-unstyled">
+                        <li class="text-primary fw-bolder align-self-center mx-2 d-none d-md-block"> FOLLOW US </li>
+                        <li> <a href="#"><img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt=""></a></li>
+                        <li> <a href="#"><img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt=""></a></li>
+                        <li> <a href="#"><img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt=""></a></li>
+                        <li> <a href="#"><img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt=""></a></li>
+                        <li> <a href="#"><img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt=""></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
 </footer>

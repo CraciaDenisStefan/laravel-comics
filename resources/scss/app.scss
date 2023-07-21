@@ -152,3 +152,24 @@ ul{
     background-size: cover;
     background-position-y: center;
 }
+
+.footer_down{
+    background-color: rgb(23, 23, 24)
+
+
+}
+.social_footer{
+    a{
+        text-decoration: none;
+        margin: 0 10px;
+        &:hover{
+            filter: invert(100%);
+    }
+    img{
+        width: 2rem;
+    }
+    }
+
+    
+}
+
