@@ -212,3 +212,14 @@ ul{
     border-top: 1px solid gray;
 
 }
+.font_size{
+    font-size: 0.8rem;
+}
+.container_marketing{
+    width: 100%;
+    background-color: rgb(230, 227, 227);
+
+    img{
+        filter: invert(40%);
+    }
+}

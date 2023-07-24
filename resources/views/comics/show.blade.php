@@ -102,7 +102,34 @@
                     <hr>
                         
                 </div>
+            </div>
+        </div>
     </div>
 
+
+</div>
+<div class="container_marketing">
+    <div class="container d-flex justify-content-center">
+        <div class="col-12 col-md-10">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between border-dark-subtle border-end border-start p-3">
+                    <div class="col-6 font_size fw-bolder text-secondary">DIGITAL COMICS</div>
+                    <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt=""></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between  p-3">
+                    <div class="col-6 font_size fw-bolder text-secondary">SHOP DC</div>
+                    <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt=""></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between border-dark-subtle border-end border-start p-3">
+                    <div class="col-6 font_size fw-bolder text-secondary">COMIC SHOP LOCATOR</div>
+                    <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt=""></div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between border-dark-subtle border-end  p-3">
+                    <div class="col-6 font_size fw-bolder text-secondary">SUBSCRIBTION</div>
+                    <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
