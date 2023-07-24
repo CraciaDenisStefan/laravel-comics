@@ -20,7 +20,7 @@
         <div class="row">
             {{-- Iizio parte iniziale con titolo del fumetto --}}
             <div class="col-12 col-lg-8 pt-5">
-                <h4 class="text-uppercase">
+                <h4 class="text-uppercase color_show">
                     {{$comic['title']}}
                 </h4>
                 <div class="col-12 d-flex bg_price  fw-semibold text-white">
@@ -57,11 +57,11 @@
         <div class="col-12 col-md-10">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <h5 class="pb-3 fw-semibold">TALENT</h5>
+                    <h5 class="pb-3 fw-semibold color_show">TALENT</h5>
             <hr>      
                     {{-- Talent con dentro gli artisti e scrittori --}}
                     <div class="row justify-content-between">
-                        <div class="col-4 fw-semibold">Art by : </div>
+                        <div class="col-4 fw-semibold color_show">Art by : </div>
                         <div class="col-8">
                             @foreach($comic['artists'] as $artist)
                            <a class="text-decoration-none" href="#">{{$artist}}</a> ,
@@ -70,7 +70,7 @@
                     </div>
             <hr>
                     <div class="row justify-content-between">
-                        <div class="col-4 fw-semibold">Writen by : </div>
+                        <div class="col-4 fw-semibold color_show">Writen by : </div>
                         <div class="col-8">
                             @foreach($comic['writers'] as $writer)
                             <a class="text-decoration-none" href="#"> {{$writer}}</a> ,
@@ -82,25 +82,25 @@
 
                 <div class="col-12 col-lg-6">
 
-                    <h5 class="pb-3 fw-semibold">Specs</h5>
+                    <h5 class="pb-3 fw-semibold color_show">Specs</h5>
                     <hr>      
                             {{-- Specs con nome della serie prezzo e data --}}
                             <div class="row justify-content-between">
-                                <div class="col-4 fw-semibold">Series : </div>
+                                <div class="col-4 fw-semibold color_show">Series : </div>
                                 <div class="col-8">
                                    <a class="text-decoration-none" href="#">{{$comic['series']}}</a> 
                                 </div>
                             </div>
                     <hr>
                             <div class="row justify-content-between">
-                                <div class="col-4 fw-semibold">U.S. Price : </div>
+                                <div class="col-4 fw-semibold color_show">U.S. Price : </div>
                                 <div class="col-8">
                                     {{$comic['price']}} 
                                 </div>
                             </div>
                     <hr>
                             <div class="row justify-content-between">
-                                <div class="col-4 fw-semibold">On Sale Date : </div>
+                                <div class="col-4 fw-semibold color_show">On Sale Date : </div>
                                 <div class="col-8">
                                     {{date("M d Y", strtotime($comic['sale_date']))}}
                                 </div>
@@ -119,7 +119,7 @@
         <div class="col-12 col-md-10">
             {{-- Inizio parte commerciale  --}}
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between border-dark-subtle border-end border-start p-3">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between  p-3 border_r_l">
                     <div class="col-6 font_size fw-bolder text-secondary">DIGITAL COMICS</div>
                     <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt=""></div>
                 </div>
@@ -127,11 +127,11 @@
                     <div class="col-6 font_size fw-bolder text-secondary">SHOP DC</div>
                     <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt=""></div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between border-dark-subtle border-end border-start p-3">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between p-3 border_r_l">
                     <div class="col-6 font_size fw-bolder text-secondary">COMIC SHOP LOCATOR</div>
                     <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt=""></div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between border-dark-subtle border-end  p-3">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-between   p-3 border_r">
                     <div class="col-6 font_size fw-bolder text-secondary">SUBSCRIBTION</div>
                     <div class="col-2"><img class="img-fluid" src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt=""></div>
                 </div>

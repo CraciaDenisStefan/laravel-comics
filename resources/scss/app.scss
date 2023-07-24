@@ -150,6 +150,13 @@ ul{
     }
 }
 }
+.cookies{
+    color: rgb(170, 168, 168);
+    a{
+        text-decoration: none;
+        color: rgb(30, 86, 206);
+    }
+}
 .logo_footer{
     width: 100%;
     background-image: url('../img/dc-logo-bg.png');
@@ -174,6 +181,8 @@ ul{
     }
     }
 }
+
+
 
 //FINE FOOTER
 
@@ -223,4 +232,20 @@ ul{
         filter: invert(40%);
     }
 }
+.color_show{
+    color: rgb(15, 15, 141);
+}
+
+.border_r_l{
+    border-left: 1px solid rgb(173, 173, 173);
+    border-right: 1px solid rgb(173, 173, 173);
+}
+.border_r{
+    border-right: 1px solid rgb(173, 173, 173);
+}
+@media screen and (max-width: 995px){
+    .border_r_l, .border_r{
+     border: 0;
+    }
+ }
 //FINE FUMETTO SINGOLO
