@@ -96,7 +96,7 @@
                             <div class="row justify-content-between">
                                 <div class="col-4 fw-semibold">On Sale Date : </div>
                                 <div class="col-8">
-                                    {{$comic['sale_date']}}
+                                    {{date("M d Y", strtotime($comic['sale_date']))}}
                                 </div>
                             </div>
                     <hr>
