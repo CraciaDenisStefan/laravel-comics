@@ -124,6 +124,10 @@ ul{
     object-position: top;
     margin-bottom: 10px;
 }
+    a{
+        text-decoration: none;
+        color:white
+    }
 }
 //main secondo
 
@@ -199,4 +203,12 @@ ul{
 }
 .text_avaible{
     color: rgb(142, 253, 142);
+}
+.container_down{
+    width: 100%;
+    background-color: rgb(230, 227, 227);
+    padding: 3rem 0 6rem 0;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
 }
