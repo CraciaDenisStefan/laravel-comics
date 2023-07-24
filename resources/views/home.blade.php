@@ -10,11 +10,13 @@
                     <div class="curent_series">CURENT SERIES</div>
                     <div class="row py-5">
                         <!-- Card fumetti -->
-                        @foreach($fumetti as $fumetto)
+                        @foreach($fumetti as $id => $fumetto)
                             <div class="card_fumetto col-12 col-md-6 col-lg-2 text-white my-3">
+                                <a href="{{route('comics.page',$id)}}">
                                 <img src="{{ $fumetto['thumb']}}" alt="">
                                 <div class="title_card mb-1">
                                 {{$fumetto['series']}}
+                            </a>
                                 </div>
                             </div>
                         @endforeach   

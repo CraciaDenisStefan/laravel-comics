@@ -18,3 +18,12 @@ Route::get('/', function () {
 
     return view('home',compact('fumetti'));
 })->name('homepage');
+
+Route::get('/comics/{comic}', function($id){
+
+    $comics = config('db.comics');
+    $comic = $comics[$id];
+
+    return view('comics.show', compact('comic'));
+
+})->name('comics.page');
